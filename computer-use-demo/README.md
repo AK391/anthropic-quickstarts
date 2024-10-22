@@ -170,3 +170,10 @@ docker run \
 ```
 
 The docker run command above mounts the repo inside the docker image, such that you can edit files from the host. Streamlit is already configured with auto reloading.
+
+## Running the Gradio App
+
+To run the Gradio interface:
+
+1. Make sure you've built and started the Docker container as described above.
+2. Open http://localhost:7860 in your browser to access the Gradio interface.
